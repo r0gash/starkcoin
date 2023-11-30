@@ -1,5 +1,5 @@
 #[starknet::contract]
-mod MyToken {
+mod BlastInu {
     use starknet::ContractAddress;
     use openzeppelin::token::erc20::ERC20;
 
