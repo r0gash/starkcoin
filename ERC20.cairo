@@ -12,8 +12,8 @@ mod MyToken {
         initial_supply: u256,
         recipient: ContractAddress
     ) {
-        let name = 'BlastInu';
-        let symbol = 'Blinu';
+        let name = 'BlastInu'; // token name
+        let symbol = 'Blinu'; // token ticker
 
         let mut unsafe_state = ERC20::unsafe_new_contract_state();
         ERC20::InternalImpl::initializer(ref unsafe_state, name, symbol);
